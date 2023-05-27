@@ -1,3 +1,40 @@
-h1 {
-    color: blue;
+.first-screen{
+    position: relative;
+    margin-bottom: 100px;
+    height: calc(100vh - (50px + 39px));
+
+
+    &__title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 126%;
+        text-transform: uppercase;
+        padding-top: 163px;
+        margin-bottom: 8px;
+        max-width: 500px;
+    }
+
+    &__subtitle{
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 135.5%;
+        margin-bottom: 37px;
+        max-width: 336px;
+    }
+
+    
+  
 }
+
+.slick-slide{
+    margin: 0 10px;
+    width: 1820px;
+    height: 700px;
+    padding: 165px 0 228px;
+}
+
+.first-screen .slick-slide .container{
+    height: 70vh;
+}
+
+
