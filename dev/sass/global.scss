@@ -8,9 +8,7 @@ body {
     color: $text-color;
     font-family: $font-primary;
 }
-.wrapper{
-    padding-top: 35px;
-}
+
 
 a {
     color: $color-primary;
@@ -67,6 +65,12 @@ h6,
     font-size: 18px;
 }
 
+.container{
+    min-width: 1170px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .container-xxl {
     max-width: 1820px;
 }
@@ -190,6 +194,7 @@ h6,
         width: 27px;
         height: 27px;
         transition: .3s;
+        display: inline-block;
     }
 }
 
@@ -241,4 +246,9 @@ h6,
 ::-webkit-scrollbar-button {
     background-color: transparent;
     display: none;
+}
+
+
+.slick-track {
+    display: flex;
 }
