@@ -1,7 +1,3 @@
-.first-screen .slick-slide .container {
-    height: 90vh;
-}
-
 
 .first-screen {
     position: relative;
@@ -13,7 +9,6 @@
         font-size: 56px;
         line-height: 126%;
         text-transform: uppercase;
-        padding-top: 163px;
         margin-bottom: 8px;
         max-width: 500px;
     }
@@ -25,11 +20,17 @@
         margin-bottom: 37px;
         max-width: 336px;
     }
+    .btn-lg {
+        padding: 19.6px 28px;
+    }
+    .slick-list {
+        margin: 0 -10px;
+        border-radius: 22px;
+    }
 
     .slick-slide {
         margin: 0 10px;
-        width: 1820px;
-        height: 700px;
+        padding: 165px 92px 228px;
         border-radius: 22px;
         background-position: center;
         background-size: cover

@@ -65,14 +65,16 @@ h6,
     font-size: 18px;
 }
 
-.container{
-    min-width: 1170px;
-    padding: 0 15px;
+.container {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .container-xxl {
-    max-width: 1820px;
+    max-width: 1850px;
 }
 
 .wf-300 {
@@ -136,9 +138,9 @@ h6,
 
 
 [type="radio"] {
-    &:checked{
-        + label{
-            &::before{
+    &:checked {
+        +label {
+            &::before {
                 content: "•";
                 background: #fff;
                 font-size: 40px;
@@ -148,6 +150,7 @@ h6,
             }
         }
     }
+
     +label {
         &::before {
             border-radius: 50%;
@@ -155,46 +158,52 @@ h6,
     }
 }
 
-.btn{
+.btn {
     font-weight: 600;
     font-size: 15px;
     line-height: 146%;
     border-radius: 90px;
     padding: 13px 17px;
-    &:hover{
-        .icon{
-            filter:invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(180%) contrast(101%) ;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.6px;
+
+    &:hover {
+        .icon {
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(180%) contrast(101%);
         }
     }
 }
 
-.btn-primary{
+.btn-primary {
     background-color: $color-primary;
     border-color: $color-primary;
-    &:hover{
+
+    &:hover {
         background-color: $color-secondary;
         border-color: $color-secondary;
     }
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: transparent;
     border-color: $color-primary;
-    &:hover{
+
+    &:hover {
         background-color: $color-secondary;
         border-color: $color-secondary;
     }
 }
 
-.btn-lg{
+.btn-lg {
     padding: 19.5px 34px;
     font-size: 16px;
-    .icon{
+
+    .icon {
         margin: 0 -14px 0 48px;
         width: 27px;
         height: 27px;
         transition: .3s;
-        display: inline-block;
     }
 }
 
@@ -246,9 +255,4 @@ h6,
 ::-webkit-scrollbar-button {
     background-color: transparent;
     display: none;
-}
-
-
-.slick-track {
-    display: flex;
 }

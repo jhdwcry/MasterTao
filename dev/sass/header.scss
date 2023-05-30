@@ -2,7 +2,6 @@ header {
     .navbar {
         padding-top: 25px;
         padding-bottom: 39px;
-       
     }
 
     .navbar-brand {
@@ -45,11 +44,11 @@ header {
     }
 
     .navbar-toggler {
+        position: relative;
         border: none;
         width: 27.5px;
         height: 25px;
         padding: 0;
-        position: relative;
 
         &-icon {
             position: absolute;
