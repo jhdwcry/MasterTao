@@ -1,0 +1,37 @@
+.calculation-form {
+    max-width: 626px;
+    width: 100%;
+
+    background: $bg-secondary;
+    border-radius: 20px;
+    padding: 50px 50px 61px;
+    input{
+        width: 100%;
+    }
+}
+
+
+
+input {
+transition: .1s;
+    &[type='text'],
+    &[type='number'] {
+        background: #fff;
+        border-radius: 10px;
+        padding: 18.5px 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 126%;
+        border: none;
+    }
+    &:hover {
+        box-shadow: 0px 0px 12px 1px rgba(229, 141, 53, 1);
+    }
+    &:focus {
+        box-shadow: 0px 0px 0px 1px rgba(229, 141, 53, 1);
+    }
+
+    &:focus-visible{
+        outline: none;
+    }
+}
