@@ -41,36 +41,6 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0);
-        bottom: 43px;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-
-        >li {
-            margin: 0 13px;
-            list-style: none;
-            height: 8px;
-            line-height: 1;
-            font-size: 0px;
-            &.slick-active{
-                button{
-                    background-color: #fff;
-                }
-            }
-        }
-
-        button {
-            font-size: 0px;
-            padding: 0;
-            border-radius: 50%;
-            opacity: 0.9;
-            border: 2px solid #fff;
-            width: 8px;
-            height: 8px;
-            background: transparent;
-            outline: none;
-        }
     }
 
 
