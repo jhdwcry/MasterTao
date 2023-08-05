@@ -6,8 +6,7 @@
     }
 
     .accordion-item {
-        width: 716px;
-        max-width: 716px;
+        min-width: 716px;
         border: 1px solid #3A444E;
         border-radius: 10px;
         margin-bottom: 14px;

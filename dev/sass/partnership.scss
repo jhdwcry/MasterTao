@@ -1,0 +1,26 @@
+.partnership-section {
+
+    .section-first,
+    .section-second {
+        display: flex;
+        align-items: center;
+    }
+
+    .section-second {
+        flex-direction: row-reverse;
+    }
+
+    .li__second-section {
+        margin-left: 45px;
+    }
+
+    li {
+        margin-bottom: 20px;
+        margin-right: 57px;
+    }
+
+    img {
+        max-width: none;
+        width: auto;
+    }
+}

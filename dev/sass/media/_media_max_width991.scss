@@ -192,4 +192,20 @@
         width: 100%;
     }
 
+    //faq
+
+    .questions-container{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .accordion-item{
+            min-width: 350px;
+         }
+
+         .faq-form{
+            margin-top: 28px;
+        }
+    }
+
+
 }
