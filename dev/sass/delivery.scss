@@ -90,3 +90,56 @@
     }
 
 }
+
+// services
+
+.services {
+
+    .slider-template {
+        .slick-slide {
+            padding: 0 45px 27px;
+            height: 482px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            &::after{
+                content: '';
+                position: absolute;
+                left: 15px;
+                right: 15px;
+                z-index: -1;
+                top: 0;
+                bottom: 0;
+                background: linear-gradient(180deg, rgb(4 5 17 / 1%), rgb(6 8 24));
+                border-radius: 20px;
+            }
+        }
+    
+
+        &__img-box {
+            position: absolute;
+            left: 15px;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &__title{
+            margin-bottom: 13px;
+        }
+        &__description{
+            margin-bottom: 14px;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+
+
+}

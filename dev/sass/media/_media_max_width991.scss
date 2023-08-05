@@ -1,11 +1,13 @@
 @media screen and (max-width: 991px) {
 
-    section, .first-screen{
+    section,
+    .first-screen {
         margin-bottom: 56px;
 
     }
 
-    section{
+    section {
+
         &.container-fluid,
         &.advantages.container-fluid {
             padding: 55px 0 60px;
@@ -16,14 +18,14 @@
                 border-radius: 0;
             }
         }
-      
+
     }
 
     .container {
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
     header {
         .navbar {
             padding-top: 19px;
@@ -77,9 +79,7 @@
             margin: 0 auto 18px;
         }
 
-        // .btn-lg {
 
-        // }
 
         .slick-list {
             margin: 0px -20px;
@@ -90,7 +90,8 @@
             border-radius: 0;
             height: calc(100vh - 72px);
             padding: 26vh 0 228px;
-            &::before{
+
+            &::before {
                 content: '';
                 position: absolute;
                 left: 0;
@@ -99,15 +100,18 @@
                 height: 100%;
                 background: linear-gradient(180deg, rgb(4 5 17 / 1%), rgb(4 5 17 / 15%));
             }
-            .container{
+
+            .container {
                 z-index: 1;
                 position: relative;
             }
         }
-        
+
     }
+
     .template-title {
         margin-bottom: 40px;
+
         h2 {
             font-size: 24px;
             text-align: center;
@@ -133,10 +137,11 @@
         }
     }
 
-    
+
 
     .calculation {
         margin-bottom: 60px;
+
         .container {
             &:after {
                 display: none;
@@ -158,21 +163,33 @@
         margin-bottom: 12px;
 
     }
-    
+
     .advantages {
         .slick-list {
             padding-top: 12px;
         }
     }
+
     .advantage-title {
         max-width: 263px;
         margin: 0 auto;
     }
+
     .slider-template {
         width: 390px;
     }
+
+    //about
+
+    .about-company {
+        font-size: 16px;
+        line-height: 149.5%
+    }
+
+    .about-company__img {
+       
+        margin: 33px auto;
+        width: 100%;
+    }
+
 }
-
-
-
-

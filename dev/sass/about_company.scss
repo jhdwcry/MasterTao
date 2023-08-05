@@ -1,0 +1,19 @@
+.about {
+    padding: 48px 50px 28px;
+}
+
+.about-company {
+    font-size: 18px;
+    font-weight: 300;
+
+    &__description-first {
+        margin-bottom: 20px;
+    }
+
+    &__img {
+        position: relative;
+        margin-top: -166px;
+        margin-left: 35px;
+        max-width: 550px;
+    }
+}
