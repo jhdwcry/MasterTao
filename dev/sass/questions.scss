@@ -1,15 +1,18 @@
 .questions-container {
+    display: flex;
+    justify-content: space-between;
     .accordion {
         background-color: $bg-primary;
     }
 
     .accordion-item {
-        width: 100%;
+        width: 716px;
         max-width: 716px;
         border: 1px solid #3A444E;
         border-radius: 10px;
         margin-bottom: 14px;
         margin-left: 31px;
+        margin-right: 34px;
         overflow: hidden;
         transition: 0.3s;
 
@@ -87,9 +90,8 @@
 
 }
 
-.questions-form {
-    margin-left: -37px;
-    max-width: 390px;
+.faq-section {
+    width: 390px;
     background: $bg-secondary;
     box-shadow: 5px 15px 40px #1c1f2a;
     border-radius: 20px;
